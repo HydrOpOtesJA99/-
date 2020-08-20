@@ -174,7 +174,7 @@
   <h2>&lt;호스트와 채팅기능 추가&gt;</h2>
   <p>
     <a href="https://dashboard.tawk.to/?lang=ko#/admin/5f3e197c1e7ade5df44268d6/overview">tawk</a>라는 사이트 사용. 댓글 삽입때와 같이 파일을 이용하여 여는 것이아닌 localhost/html.html을 이용하여 파일을 열어준다.
-    <br>ex)
+    <a href="https://dashboard.tawk.to/?lang=ko#/admin/5f3e197c1e7ade5df44268d6/overview">tawk</a>사이트를 켜놓은 상태로 사이트 이용자에게 문자를 받으면 전화가 울리며 서로 문자를 교환할 수 있다.
     <br><!--Start of Tawk.to Script-->
         <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -188,10 +188,23 @@
         })();
         </script>
         <!--End of Tawk.to Script-->
+    </p>
 
+  <h2>&lt;웹사이트 방문자 분석기&gt;</h2>
+  <p>
+    <a href="https://analytics.google.com/analytics/web/provision/#/a175893197w243752625p226942665/admin/tracking/tracking-code/">Google Anaytics</a> 사이트를 사용하여 웹사이트 방문자 분석기를 삽입한다.
+    <br> <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175893197-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
+            gtag('config', 'UA-175893197-1');
+          </script>
   </p>
 
+  <h2>끝!!!!</h2>
 
   </body>
 </html>
