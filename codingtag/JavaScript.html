@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Html 태그 용어 모음</title>
+    <h1><a href="index.html">[코딩 태그 용어 모음]</a></h1>
+    <ol>
+      <li><a href="html.html">[HTML 태그 용어 모음]</a></li>
+      <li><a href="CSS.html">[CSS 태그 용어 모음]</a></li>
+      <li><a href="JavaScript.html">[JavaScript 태그 용어 모음]</a></li>
+    </ol>
+
+
+
+
+
+
+  </head>
+  <body>
+  <h2>[Html 태그 용어 모음]</h2>
+  <h2>&lt홈페이지 만들기 전 기본 베이스&gt</h2>
+  <p>
+    &ltHTML&gt
+    <br>&nbsp;&nbsp;&lthead&gt
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;'홈페이지 제목'&lt/title&gt
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&ltmeta charset="utf-8"&gt
+    <br>&nbsp;&nbsp;&lt;/head&gt;
+    <br>&nbsp;&nbsp;&ltbody&gt
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;'내용'
+    <br>&nbsp;&nbsp;&lt/body&gt
+    <br>&lt/HTML&gt
+
+  </p>
+
+  <h2>&ltstrong 태그&gt</h2>
+  <p>
+    stong태그: 글씨를 두껍게 해주어서 강조한다.
+    <br> ex) &lt;strong&gt 고상진 &lt/strong&gt --> <strong>고상진</strong>
+  </p>
+
+  <h2>&ltu태그&gt</h2>
+  <p>
+    u태그: 글씨 아래 밑줄을 쳐준다
+    <br> ex) &ltu&gt 고상진 &lt/u&gt --> <u>고상진</u>
+  </p>
+
+  <h2>&lth태그&gt</h2>
+  <p>
+    h태그: 제목 형식을 만들어 준다.
+    <br>h태그는 자체적인 줄 바꿈이 존재한다.
+    <br>h태그의 형식은 &lth<strong><u>n</u></strong>&gt "내용" &lth<strong><u>n</u></strong>&gt (<strong><u>n</u></strong>은 1~6까지의 자연수)
+    <p> 다음은 h태그의 예시이다. </p>
+    ex)
+    <h1>고상진(h1)</h1>
+    <h2>고상진(h2)</h2>
+    <h3>고상진(h3)</h3>
+
+  <h2>&ltbr태그&gt</h2>
+  <p>
+    br태그: 줄넘김의 태그이다.
+    <br> ex)
+    <br>고상진1 &ltbr&gt 고상진2
+    <br>---&gt
+    <br>
+    <br>고상진1
+    <br> 고상진2
+  </p>
+
+  <h2>&ltp태그&gt</h2>
+  <p>
+    p태그: 단락넘김의 태그이다.
+    <br> ex)
+    <br>고상진1 &ltp&gt고상진2&lt/p&gt
+    <br><strong>--></strong>
+    <br>
+    <br>고상진1
+    <p>고상진2</p>
+  </p>
+
+  <h2>&ltimg태그&gt</h2>
+  <p>
+    img태그: 이미지(사진)을 삽입하는 태그이다.
+    <br> 이미지를 프로젝트 폴더에 다운 --> 코딩 화면에서 우클릭 후 rename하여 새 이름으로 저장 -->
+    <br> <strong>&ltimg src="(rename한 이름).jpg" width="퍼센트 값 or 숫자"&gt</strong>를 입력하여 사진 삽입한다. (width는 사진의 크기를 설정해줌+width, src는 속성이라고 부르고 순서는 상관없다.)
+    <br> ex) &ltimg src="초등.jpg" width="100%"&gt
+    <br> <strong>--></strong>
+    <br> <img src="초등.jpg" width="100%">
+  </p>
+
+  <h2>&lt부모자식의 관계li태그, ul태그(unordered list)&gt</h2>
+  <p>
+    ex)
+    <br> &ltul&gt
+    <br> &nbsp&nbsp&ltli&gtHTML&lt/li&gt
+    <br> &nbsp&nbsp&ltli&gtCSS&lt/li&gt
+    <br> &nbsp&nbsp&ltli&gtJavaScript&lt/li&gt
+    <br> &lt/ul&gt
+    <br> <br><strong>--></strong>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    ul태그 사용하고 ul태그에 포함되는 li태그들을 tab키로 안으로 들여쓰면 출력도 안으로 들여써짐
+    <br>* 팁: ctrl을 누른상태로 클릭을하면 여러군데를 클릭할 수 있음
+  </p>
+
+  <h2>&lt자동으로 숫자로 리스트화하는 태그 ol태그(ordered list)&gt</h2>
+  <p>
+    ex)
+    <br> &ltol&gt
+    <br> &nbsp&nbsp&ltli&gtHTML&lt/li&gt
+    <br> &nbsp&nbsp&ltli&gtCSS&lt/li&gt
+    <br> &nbsp&nbsp&ltli&gtJavaScript&lt/li&gt
+    <br> &lt/ol&gt
+    <br> <br><strong>--></strong>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+  </p>
+
+  <h2>&lt;a태그로 링크 걸기&gt;</h2>
+  <p>
+    ex)
+    <br> &lt;a href="링크"&gt; &lt;a&gt;<strong>--></strong>  a태그 사이의 글자를 클릭하면링크로 이동
+    <br> &lt;a href="링크" title="마우스 올려놓을 때 띄울 제목"&gt; &lt;a&gt; <strong>--></strong> 마우스를 글자위에 올려두면 제목뜬다.
+    <br> &lt;a href="링크" target="_blank"&gt; &lt;a&gt; <strong>--></strong> a태그 사이의 글자를 클릭하면 새탭에 링크를 열고 이동
+    <br> * a만 누르고 엔터해서 위의 문법 사용가능
+    <br><br> &lt;응용&gt;
+    <br> <a href="https://www.youtube.com/watch?v=V3pkC1hE-as&list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb&index=14" target="-blank" title="a태그로 하이퍼링크">a태그로 하이퍼링크 </a>
+  </p>
+
+
+  </body>
+</html>
